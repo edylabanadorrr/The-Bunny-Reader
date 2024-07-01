@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="clay-creations.css"/>
+    <link rel="icon" href="logo/logo-tbr.png" sizes="32x32" type="image/png">
+	<title>The Bunny Reader</title>
+</head>
+<body>	
+	<nav class = "navbar">
+		<div class = "navbar__container">
+		<a href="#home" id = "navbar__logo">
+            <img src="logo/logo-tbr-nobg.png" alt="Logo" class="navbar__logo">The Bunny Reader
+		<div class = "navbar__toggle" = id = "mobile-menu">
+		</div>
+		<ul class="navbar__menu">
+			<li class="navbar__item">
+                    <a href="home.html" class="navbar__links"> Home </a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="home.html#product" class="navbar__links"> Product </a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="#" class="navbar__links"> Clay Creations </a>
+                </li>
+
+                <li class = "navbar__item">
+                    <a href="home.html#about" class="navbar__links"> About us </a>  
+                </li>
+
+                <li class="navbar__item">
+                    <a href="feedback.html" class="navbar__links"> Feedback </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home page -->
+
+    <div class="clay-container">
+        <h2 class = "clay-creation-title">Clay Creations</h2>
+    <div class="container">
+
+        <div class="slide">
+
+            <div class="item" style="background-image: url(clay-creations-image/image4.jpg);">
+                <div class="content">
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(clay-creations-image/care-tips2.jpg);">
+                <div class="content">
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(clay-creations-image/image6.jpg);">
+                <div class="content">
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(clay-creations-image/image8.jpg);">
+                <div class="content">
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(clay-creations-image/image9.jpg);">
+                <div class="content">
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(clay-creations-image/image10.jpg);">
+                <div class="content">
+                </div>
+            </div>
+
+        <div class="item" style="background-image: url(clay-creations-image/image11.jpg);">
+            <div class="content">
+            </div>
+        </div>
+
+        <div class="item" style="background-image: url(clay-creations-image/image12.jpg);">
+            <div class="content">
+            </div>
+        </div>
+
+        <div class="item" style="background-image: url(clay-creations-image/image1.jpg);">
+            <div class="content">
+            </div>
+        </div>
+
+        <div class="item" style="background-image: url(clay-creations-image/image2.jpg);">
+            <div class="content">
+            </div>
+        </div>
+
+        <div class="item" style="background-image: url(clay-creations-image/image3.jpg);">
+            <div class="content">
+            </div>
+        </div>
+
+        <div class="item" style="background-image: url(clay-creations-image/image5.jpg);">
+            <div class="content">
+            </div>
+        </div>
+
+        <div class="item" style="background-image: url(clay-creations-image/image7.jpg);">
+            <div class="content">
+            </div>
+        </div>
+    </div>
+
+            <div class="button">
+                <button class="prev"><i class="arrow-left-icon"></i></button>
+                <button class="next"><i class="arrow-right-icon"></i></button>
+            </div>
+    </div>
+
+    <!-- Button for ordering -->
+    <button class="order-now" id="orderButton"><span class="text">Order now!</span></button>
+
+    <!-- Order form -->
+    <div id="orderForm" class="order-form">
+        <h3>Order Form</h3><br>
+        <div class = "form-grid">
+            <label for="shape" class = "labels">Shape of base:</label>
+            <select id="shape" name="shape" class = "options">
+                <option value="oval">Oval</option>
+                <option value="rectangle">Rectangle</option>
+            </select><br><br>
+
+            <label for="colorBase" class = "labels">Color of base:</label>
+            <select name="colorBase" id="colorBase" class = "options">
+                <option value="pink">Pink</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+                <option value="violet">Violet</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                </select><br><br>
+    
+            <label for="design" class = "labels">Design of base:</label>
+            <select id="design" name="design" class = "options">
+                <option value="stitches">Stitches</option>
+                <option value="bricks">Bricks</option>
+                <option value="checkered">Checkered</option>
+                <option value="noDesign">No design</option>
+            </select><br><br>
+    
+            <label for="colorLetters" class = "labels">Color of letters:</label>
+            <select name="colorLetters" id="colorLetters" class = "options">
+                <option value="pink">Pink</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+                <option value="violet">Violet</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                </select><br><br>
+    
+            <label for="name" class = "labels">Name:</label>
+            <input type="text" id="name" name="name" class = "name" placeholder="Maximum of 7 characters"><br><br>
+    
+            <label for="charm" class = "labels">Charm (small):</label>
+            <select id="charm" name="charm" class = "options">
+                <option value="ribbon">Ribbon</option>
+                <option value="heart">Heart</option>
+                <option value="crown">Crown</option>
+                <option value="flower">Flower</option>
+            </select><br><br>
+    
+            <label for="charmColor" class = "labels">Charm Color</label>
+            <select name="charmColor" id="charmColor" class = "options">
+                <option value="pink">Pink</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+                <option value="violet">Violet</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                </select><br><br>
+    
+                <button id="nextButton" class = "nextButton">Next</button>
+        </div>
+    </div>
+
+        <div id="userDetailsForm" class="user-details-form" style="display: none;">
+            <h4 style="text-align: justify;">To prevent false or misleading orders, please provide your details for verification.</h4><br>
+            <h3>Enter your details</h3>
+            <form id="userDetails"">
+                <div class="grid-container">
+                    <label for="firstName" class = "labels">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" class = "inputs"><br><br>
+
+                    <label for="lastName" class = "labels">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" class = "inputs"><br><br>
+                
+                    <label for="contactNumber" class = "labels">Contact Number:</label>
+                    <input type="number" id="contactNumber" name="contactNumber" class = "inputs"><br><br>
+
+                    <label for="address" class = "labels">Address:</label>
+                    <input type="text" id="address" name="address" class = "inputs"><br><br>
+                </div>
+
+                <div class="button-container">
+                    <button id="backButton" class = "backButton">Back</button>
+                    <input type="submit" class = "submitButton" value="Submit">
+                </div>
+            </form>
+        </div>
+    
+
+    <script src="/clay-creations.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2020 The Bunny Reader. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/thebunnyreader" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/thebunnyreader/?hl=en" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://shopee.ph/thebunnyreader" target="_blank" rel="noopener noreferrer"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </footer>
+</body>
+</html>	
